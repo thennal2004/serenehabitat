@@ -1,0 +1,272 @@
+@charset "UTF-8";
+@import url("../homepagestyle.css");
+/* Body */
+body {
+    font-family: source-sans-pro;
+    background-color: #EE6C4D;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    font-style: normal;
+    font-weight: 200;
+    text-align: justify;
+}
+/* Container */
+.container {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 1500px;
+    background-color: #E0FBFC;
+    text-align: center;
+}
+/* Navigation */
+header {
+    width: 90%;
+    height: 16%;
+    background-color: #EE6C4D;
+    position: fixed;
+    align-items: center;
+}
+.logo {
+    color: #fff;
+	font-family: "source-sans-pro";
+    font-weight: bold;
+    text-align: match-parent;
+    width: 20%;
+    float: left;
+    margin-top: 15px;
+    margin-left: 25px;
+    font-size: 30px;
+    letter-spacing: 4px;
+    vertical-align: middle;
+}
+nav {
+float: right;
+width: 50%;
+text-align: right;
+margin-right: 25px;
+}
+header nav ul {
+list-style: none;
+float: right;
+}
+nav ul li {
+    float: left;
+    color: #FFFFFF;
+	font-family: "source-sans-pro";
+    font-size: 20px;
+    text-align: left;
+    margin-right: 25px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    transition: all 0.3s linear;
+    vertical-align: middle;
+}
+ul li a {
+color: #FFFFFF;
+padding-bottom: 10px;
+padding-top:10px;
+text-decoration: none;
+}
+ul li:hover a {
+    color: #000000;
+}
+
+
+
+/* Home Header Section */
+.book {
+    background-image: url("../../Creative Cloud Files/webbgtest.png");
+    padding-top: 150px;
+    padding-bottom: 70px;
+	height: 300px;
+}
+	
+.tagline {
+	font-family: "source-sans-pro";
+	color: #3d5a80;
+
+}
+
+.form{
+	padding-top: 0px;
+	background-color: #E0FBFC;
+}
+
+.form_section{
+	background-color:#E0FBFC;
+}
+
+.terms{
+	align-content: center;
+	
+}
+
+	
+
+
+/* Mobile */
+@media (max-width: 320px) {
+.logo {
+	width: 100%;
+	text-align: center;
+	margin-top: 13px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+.container header nav {
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	width: 100%;
+	float: none;
+	display: none;
+}
+header nav ul {
+}
+nav ul li {
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	width: 100%;
+	text-align: center;
+}
+}
+
+/* Small Tablets */
+@media (min-width: 321px)and (max-width: 767px) {
+.logo {
+	width: 100%;
+	text-align: center;
+	margin-top: 13px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	color: #043745;
+}
+.container header nav {
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	width: 100%;
+	float: none;
+	overflow: auto;
+	display: inline-block;
+	background: #52bad5;
+}
+header nav ul {
+	padding: 0px;
+	float: none;
+}
+nav ul li {
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	width: 100%;
+	text-align: center;
+	padding-top: 8px;
+	padding-bottom: 8px;
+}
+}
+
+/* Small Desktops */
+@media (min-width: 768px) and (max-width: 1096px) {
+.text_column {
+	width: 100%;
+}
+.thumbnail {
+	width: 50%;
+}
+.text_column {
+	width: 100%;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
+.banner {
+	margin-top: 0px;
+	padding-top: 0px;
+}
+}
+	
+	
+
+.bottombar{
+    width: 99%;
+    margin-left: auto;
+    margin-right: auto;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	height: 300px;
+	text-align: center;
+	vertical-align: center;
+}
+
+.bottombar{
+	background-image:url("../../Creative Cloud Files/footerbg.png");
+    border: 5px solid #E0FBFC;
+    height: auto;
+}
+
+.bottom_logo{
+	text-decoration: none;
+	color:#E0FBFC;
+	font-family: "source-sans-pro";
+	
+}
+.bottom_home{
+	text-decoration: none;
+	color:#E0FBFC;
+	font-family: "source-sans-pro";
+}
+.bottom_venue{
+	text-decoration: none;
+	color:#E0FBFC;
+	font-family: "source-sans-pro";
+}
+.bottom_prices{
+	text-decoration: none;
+	color:#E0FBFC;
+	font-family: "source-sans-pro";
+}
+
+.bottom_book{
+	text-decoration: none;
+	color:#E0FBFC;
+	font-family: "source-sans-pro";
+}
+
+.copyright{
+	font-family: "source-sans-pro";
+	color:#E0FBFC
+}
+
+.social-icons{
+    width: 50px;
+    height: 50px;
+    line-height: 35px;
+    margin: 5px;
+    font-size: 30px;
+    color: #E0FBFC;
+}
+ion-icon {
+  color: #E0FBFC;
+	transition: color 0.3s;
+}
+
+ion-icon:hover {
+  color: #3d5a80;
+	
+}

@@ -1,0 +1,311 @@
+body {
+    font-family: source-sans-pro;
+    background-color: #EE6C4D;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    font-style: normal;
+    font-weight: 200;
+}
+
+
+
+
+.site-content {
+    margin-top: 0;
+    padding-top: 0;
+}
+
+/* Container */
+.container {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 1000px;
+    text-align: center;
+}
+/* Navigation */
+header {
+    width: 90%;
+    height: 16%;
+    background-color: #EE6C4D;
+    position: fixed;
+    align-items: center;
+}
+.logo {
+    color: #fff;
+	font-family: "source-sans-pro";
+    font-weight: bold;
+    text-align: match-parent;
+    width: 20%;
+    float: left;
+    margin-top: 15px;
+    margin-left: 25px;
+    font-size: 30px;
+    letter-spacing: 4px;
+    vertical-align: middle;
+}
+nav {
+float: right;
+width: 50%;
+text-align: right;
+margin-right: 25px;
+}
+header nav ul {
+list-style: none;
+float: right;
+}
+nav ul li {
+    float: left;
+    color: #FFFFFF;
+	font-family: "source-sans-pro";
+    font-size: 20px;
+    text-align: left;
+    margin-right: 25px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    transition: all 0.3s linear;
+    vertical-align: middle;
+}
+ul li a {
+color: #FFFFFF;
+padding-bottom: 10px;
+padding-top:10px;
+text-decoration: none;
+}
+ul li:hover a {
+    color: #000000;
+}
+
+
+/* Home Header Section */
+.home {
+    background-image: url("../../Creative Cloud Files/webbgtest.png");
+    padding-top: 150px;
+    padding-bottom: 70px;
+	height: 500px;
+}
+
+.main_title{
+	font-family: "source-sans-pro";
+	color:#293241
+}
+
+.main_tag{
+	font-family: "source-sans-pro";
+	color: #3d5a80;
+}
+
+/* Home Header Section */
+.side {
+    background-color:#E0FBFC;
+    padding-top: 150px;
+    padding-bottom: 70px;
+}
+.row{
+	background-color:#E0FBFC;	
+}
+
+.contact_title{
+	font-family: "source-sans-pro";
+}
+.contact_info{
+	font-family: "source-sans-pro";
+	color:#000000;
+	text-align: center;
+}
+
+.emails{
+	font-family: "source-sans-pro";
+}
+
+.main{
+	background-color: #E0FBFC;
+}
+
+.first-p{
+    font-family: "source-sans-pro";
+    text-align: center;
+}
+.services_title{
+	font-family: "source-sans-pro";
+}
+
+.services_text{
+	font-family: "source-sans-pro";
+	text-align: center;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.color1 {
+  text-align: center;
+  font-family: source-sans-pro;
+  font-size: 19px;
+  line-height: 35px;
+  font-weight: normal;
+  margin-bottom: 0px;
+  margin-top: 2px;  
+  text-shadow: 0 1px 1px #fff;
+ 
+}
+
+/*Title*/
+
+* {
+    box-sizing: border-box;
+    color: #000000;
+    text-align: center;
+}
+
+/* Style the body */
+body {
+  font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+  margin: 0;
+}
+
+/* Increase the font size of the heading */
+.header h1 {
+  font-size: 70px;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+    -ms-flex: 30%; /* IE10 */
+    flex: 30%;
+    background-color: #E0FBFC;
+    padding: 20px;
+}
+
+/* Main column */
+.main {
+    -ms-flex: 70%; /* IE10 */
+    flex: 70%;
+    background-color: #E0FBFC;
+    padding: 20px;
+}
+
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+}
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+  .row {  
+    flex-direction: column;
+  }
+}
+
+
+/* Navigation */
+
+	header {
+    width: 90%;
+    height: 12%;
+    background-color: #EE6C4D;
+    border-bottom: 1px solid #CBBEC4;
+    position: fixed;
+}
+
+.bottombar{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	height: 300px;
+	text-align: center;
+	vertical-align: center;
+	background-color: #98c1d9;
+}
+
+
+.bottombar{
+	background-image:url("../../Creative Cloud Files/footerbg.png");
+    border: 5px solid #E0FBFC;
+    height: auto;
+}
+
+
+
+.bottom_logo{
+	text-decoration: none;
+	color:#E0FBFC;
+	font-family: "source-sans-pro";
+	
+}
+.bottom_home{
+	text-decoration: none;
+	color:#E0FBFC;
+	font-family: "source-sans-pro";
+}
+.bottom_venue{
+	text-decoration: none;
+	color:#E0FBFC;
+	font-family: "source-sans-pro";
+}
+.bottom_prices{
+	text-decoration: none;
+	color:#E0FBFC;
+	font-family: "source-sans-pro";
+}
+
+.bottom_book{
+	text-decoration: none;
+	color:#E0FBFC;
+	font-family: "source-sans-pro";
+}
+
+.copyright{
+	font-family: "source-sans-pro";
+	color:#E0FBFC
+}
+
+.social-icons{
+    width: 50px;
+    height: 50px;
+    line-height: 35px;
+    margin: 5px;
+    font-size: 30px;
+    color: #E0FBFC;
+}
+ion-icon {
+  color: #E0FBFC;
+	transition: color 0.3s;
+}
+
+ion-icon:hover {
+  color: #3d5a80;
+	
+}
